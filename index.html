@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>South America</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/newStyle.css" rel="stylesheet">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+</head>
+
+<body>
+
+    <!--Main Navigation-->
+    <header>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+                        <strong>A.S.L</strong>
+                      </a>
+            
+                      <!-- Collapse -->
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+              
+                      <!-- Links -->
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+                        <!-- Right -->
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#">עמוד הבית
+                              <span class="sr-only">(current)</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#listCountry">יעדים</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#list1">רשימת ציוד</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">הרשמה</a>
+                          </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Sidebar -->
+        <div class="sidebar-fixed position-fixed">
+
+                <h1 class="h1style">South America</h1>
+
+                <img src="img/IMG_4698.JPG" class="img-fluid" alt="" width="300px" height="300px">
+                <img src="img/IMG_6126.JPG" class="img-fluid" alt="" width="300px" height="300px">
+                <img src="img/IMG_6530.JPG" class="img-fluid" alt="" width="300px" height="300px">
+
+        </div>
+        <!-- Sidebar -->
+
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="pt-5 mx-lg-5">
+        <div class="container-fluid mt-5">
+
+            <!--Grid row-->
+            <div class="row wow fadeIn new1">
+
+                 <!--Grid column-->
+                 <div class="col-md-9 mb-4">
+
+                    <script type="text/javascript">
+                        window.onload = function () {
+                        
+                        var chart = new CanvasJS.Chart("chartContainer", {
+                            theme: "light1", // "light2", "dark1", "dark2"
+                            animationEnabled: false, // change to true		
+                            title:{
+                                text: 'סה"כ 30000₪'
+                            },
+                            data: [
+                            {
+                                // Change type to "bar", "area", "spline", "pie",etc.
+                                type: "column",
+                                dataPoints: [
+                                    { label: "מקסיקו",  y: 5000  },
+                                    { label: "ברזיל", y: 5000 },
+                                    { label: "קולומביה", y: 5000  },
+                                    { label: "צילה",  y: 5000  },
+                                    { label: "בוליביה",  y: 5000  }
+                                ]
+                            }
+                            ]
+                        });
+                        chart.render();
+                        }
+                        </script>
+
+                        <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                    </div>
+                    <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <a class="badge badge-danger">יעדים</a>
+
+            <!--Grid row-->
+            <div class="row wow fadeIn">
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+
+                    <!--Card-->
+                    <div class="card">
+
+                        <!--Card content-->
+                        <div id="listCountry" class="card-body">
+
+                            <!-- Table  -->
+                            <table class="table table-hover">
+                                <!-- Table head -->
+                                <thead class="green lighten-4">
+                                    <tr>
+                                        <td>Mexico,</td>
+                                        <td>Mexico City</td>
+                                        <td>20 Days</td>
+                                        <td><a href="countries/Mexico.html" target="_blank">לחץ כאן</a></td>
+                                    </tr>
+                                </thead>
+                                <!-- Table head -->
+
+                                <!-- Table body -->
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Place 1</td>
+                                        <td>Location</td>
+                                        <td>Date</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Place 2</td>
+                                        <td>Location</td>
+                                        <td>Date</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Place 3</td>
+                                        <td>Location</td>
+                                        <td>Date</td>
+                                    </tr>
+                                </tbody>
+                                <!-- Table body -->
+                            </table>
+                            <!-- Table  -->
+
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6 mb-4">
+
+                    <!--Card-->
+                    <div class="card">
+
+                        <!--Card content-->
+                        <div class="card-body">
+
+                            <!-- Table  -->
+                            <table class="table table-hover">
+                                <!-- Table head -->
+                                <thead class="yellow lighten-4">
+                                    <tr>
+                                        <th>Brazil,</th>
+                                        <th>Rio de jenero</th>
+                                        <th>20 Days</th>
+                                        <td><a href="countries/Mexico.html" target="_blank">לחץ כאן</a></td>
+                                    </tr>
+                                </thead>
+                                <!-- Table head -->
+
+                                <!-- Table body -->
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Place 1</td>
+                                        <td>Location</td>
+                                        <td>Date</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Place 2</td>
+                                        <td>Location</td>
+                                        <td>Date</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Place 3</td>
+                                        <td>Location</td>
+                                        <td>Date</td>
+                                    </tr>
+                                </tbody>
+                                <!-- Table body -->
+                            </table>
+                            <!-- Table  -->
+
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+                <!--Grid column-->
+
+
+                <!--Grid column-->
+                <div class="col-md-6 mb-4">
+
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+    
+                                <!-- Table  -->
+                                <table class="table table-hover">
+                                    <!-- Table head -->
+                                    <thead class="red lighten-4">
+                                        <tr>
+                                            <th>Pero,</th>
+                                            <th>Pero</th>
+                                            <th>20 Days</th>
+                                            <td><a href="countries/Mexico.html" target="_blank">לחץ כאן</a></td>
+                                        </tr>
+                                    </thead>
+                                    <!-- Table head -->
+    
+                                    <!-- Table body -->
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Place 1</td>
+                                            <td>Location</td>
+                                            <td>Date</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Place 2</td>
+                                            <td>Location</td>
+                                            <td>Date</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Place 3</td>
+                                            <td>Location</td>
+                                            <td>Date</td>
+                                        </tr>
+                                    </tbody>
+                                    <!-- Table body -->
+                                </table>
+                                <!-- Table  -->
+    
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+    
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                <div class="col-md-6 mb-4">
+
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+    
+                                <!-- Table  -->
+                                <table class="table table-hover">
+                                    <!-- Table head -->
+                                    <thead class="orange lighten-4">
+                                        <tr>
+                                            <th>Colomobia,</th>
+                                            <th>colomobia</th>
+                                            <th>20 Days</th>
+                                            <td><a href="countries/Mexico.html" target="_blank">לחץ כאן</a></td>
+                                        </tr>
+                                    </thead>
+                                    <!-- Table head -->
+    
+                                    <!-- Table body -->
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Place 1</td>
+                                            <td>Location</td>
+                                            <td>Date</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Place 2</td>
+                                            <td>Location</td>
+                                            <td>Date</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Place 3</td>
+                                            <td>Location</td>
+                                            <td>Date</td>
+                                        </tr>
+                                    </tbody>
+                                    <!-- Table body -->
+                                </table>
+                                <!-- Table  -->
+    
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+    
+                    </div>
+                    <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <a class="badge badge-danger">רשימת ציוד</a>
+
+            <!--Grid row-->
+      <div class="row text-center wow fadeIn">
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4">
+    
+              <!--Card-->
+              <div class="card">
+    
+                <!-- Card header -->
+                <div id="list1" class="card-header">
+                  <h4>
+                    <strong>ציוד</strong>
+                  </h4>
+                </div>
+                <!--Card content-->
+                <div class="card-body">
+                  <ol id='listOne' class="list-unstyled mb-4">
+                  </ol>
+                  <!-- <input type="text" id="nameInput" placeholder="מה עוד חסר?">
+                
+                  <button type="button" id="list1" class="btn btn-lg btn-block btn-outline-primary waves-effect">הוספה</button> -->
+    
+                </div>
+    
+              </div>
+              <!--/.Card-->
+    
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+    
+              <!--Card-->
+              <div class="card">
+    
+                <!-- Card header -->
+                <div class="card-header">
+                  <h4>
+                    <strong>בגדים</strong>
+                  </h4>
+                </div>
+    
+                <!--Card content-->
+                <div class="card-body">
+                  <ol class="list-unstyled mb-4">
+                    <li>3 ג'ינסים
+                      <i class="fa fa-check green-text ml-1"></i>
+                    </li>
+                    <hr>
+                    <li>10 חולצות
+                      <i class="fa fa-check green-text ml-1"></i>
+                    </li>
+                    <hr>
+                    <li>רד בק
+                      <i class="fa fa-check green-text ml-1"></i>
+                    </li>
+                    <hr>
+                    <li>כובע
+                      <i class="fa fa-check green-text ml-1"></i>
+                    </li>
+                  </ol>
+    
+                  <!-- <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
+    
+                </div>
+    
+              </div>
+              <!--/.Card-->
+    
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+    
+              <!--Card-->
+              <div class="card">
+    
+                <!-- Card header -->
+                <div class="card-header">
+                  <h4>
+                    <strong>אוכל</strong>
+                  </h4>
+                </div>
+    
+                <!--Card content-->
+                <div class="card-body">
+                  <ol class="list-unstyled mb-4">
+                    <li>שימורים
+                      <i class="fa fa-check green-text ml-1"></i>
+                    </li>
+                    <hr>
+                    <li>לחם
+                      <i class="fa fa-check green-text ml-1"></i>
+                    </li>
+                    <hr>
+                    <li>שוקולד
+                      <i class="fa fa-check green-text ml-1"></i>
+                    </li>
+                    <hr>
+                    <li>סכ"ום
+                      <i class="fa fa-check green-text ml-1"></i>
+                    </li>
+                  </ol>
+                  <!-- <button type="button" class="btn btn-lg btn-block btn-primary waves-effect">Get started</button> -->
+                </div>
+    
+              </div>
+              <!--/.Card-->
+    
+            </div>
+            <!--Grid column-->
+    
+          </div>
+          <!--Grid row-->
+
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="js/sciriptFunc.js"></script>
+    <!-- Initializations -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+body{
+    background-image: url('D:/Web-dev-projects/A.S.L/img/background.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nameInput{
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.navbar-nav{
+    direction: rtl;
+}
+
+.img-fluid{
+    margin-bottom: 20px;
+    border-radius: 3%;
+}
+
+
+.h1style{
+    text-shadow: -1px 5px 30px rgba(75, 255, 150, 1);
+    text-align: center;
+  }
+
+  .new1{
+      justify-content: center;
+  }
+
+  .badge-danger{
+      font-size: 50px;
+      border-radius: 5%;
+      padding: 20px;
+      margin: 40px auto;
+  }
