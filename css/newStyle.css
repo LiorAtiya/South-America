@@ -1,5 +1,5 @@
 body{
-    background-image: url('D:/Web-dev-projects/South-America/img/background.jpg'); 
+    background-image: url('data:D:/Web-dev-projects/South-America/img/background.jpg'); 
     background-repeat: no-repeat; 
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
