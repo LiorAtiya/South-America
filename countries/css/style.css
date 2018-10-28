@@ -21,7 +21,7 @@
   }
 
   .headPic{
-    background-image: url('D:/Web-dev-projects/A.S.L/countries/img/mexico-city.jpg');  
+    background-image: url('D:/Web-dev-projects/South-America/countries/img/mexico-city.jpg');  
     width: 100%;
     background-size: cover;
   }
@@ -30,3 +30,8 @@
     max-height: 200px;
     width: 100%;
   }
+
+  /* p{
+    direction: rtl;
+    float: right;
+  } */

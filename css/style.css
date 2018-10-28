@@ -27,30 +27,3 @@
   .sidebar-fixed {
     display: none; } }
 
-
-  body{
-      background-image: url('D:/Web-dev-projects/A.S.L/img/background.jpg'); 
-      background-repeat: no-repeat; 
-      background-size: cover;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  #nameInput{
-      margin-bottom: 20px;
-      text-align: center; 
-  }
-  
-  .navbar-nav{
-      direction: rtl;
-  }
-  
-  .navbar-nav{
-      margin: 0 500px;
-      position: relative;
-      text-align: center; 
-  }
-
-  .h1style{
-    text-shadow: -1px 5px 30px rgba(75, 255, 150, 1);
-    text-align: center;
-  }

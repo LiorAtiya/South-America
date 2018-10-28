@@ -29,9 +29,31 @@ body{
       justify-content: center;
   }
 
-  .badge-danger{
+  /* .badge-danger{
       font-size: 50px;
-      border-radius: 5%;
-      padding: 20px;
-      margin: 40px auto;
+      margin: 30px 30px;
+  } */
+
+  .font-weight-bold{
+    text-shadow: -1px 5px 30px rgba(75, 255, 150, 1);
   }
+
+  .headers{
+      padding: 5px 50px;
+      background-image: url('D:/Web-dev-projects/South-America/img/headers.jpg'); 
+      border-radius: 5px;
+      color: aliceblue;
+  }
+
+  .btn-sm{
+      border-radius: 5%;
+      padding: 50px;
+      font-size: 20px;
+  }
+
+  .alertBtn{
+      padding: 0px;
+      
+  }
+
+  
