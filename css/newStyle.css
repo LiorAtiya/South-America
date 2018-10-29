@@ -1,8 +1,10 @@
+
 body{
-    background-image: url('D:/Web-dev-projects/South-America/img/background.jpg'); 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: url('D:/Web-dev-projects/South-America/images/background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #nameInput{
@@ -40,7 +42,7 @@ body{
 
   .headers{
       padding: 5px 50px;
-      background-image: url('D:/Web-dev-projects/South-America/img/headers.jpg'); 
+      background-image: url('D:/Web-dev-projects/South-America/images/headers.jpg'); 
       border-radius: 5px;
       color: aliceblue;
   }

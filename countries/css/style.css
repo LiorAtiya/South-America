@@ -21,8 +21,10 @@
   }
 
   .headPic{
-    background-image: url('D:/Web-dev-projects/South-America/countries/img/mexico-city.jpg');  
-    width: 100%;
+    background: url('D:/Web-dev-projects/South-America/countries/images/mexico-city.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
 
