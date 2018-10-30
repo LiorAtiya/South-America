@@ -30,7 +30,10 @@
     width: 100%;
   }
 
-  /* .btnCity{
-    margin: 0 auto;
-    position: relative;
-  } */
+/* Brazil */
+
+.brazil{
+  background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/Brazil.jpg'); 
+  background-size: cover;
+}
+  
