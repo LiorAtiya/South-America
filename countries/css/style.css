@@ -21,10 +21,7 @@
   }
 
   .headPic{
-    background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/mexico-city.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/mexico-city.jpg'); 
     background-size: cover;
   }
 
