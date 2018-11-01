@@ -20,13 +20,16 @@
     color: red;
   }
 
+  .buttonCity{
+    text-align: center;
+  }
+
   .img-fluid{
     max-height: 200px;
     width: 100%;
   }
 
   .para{
-    /* direction: rtl; */
     text-align: right;
   }
   .mexico{

@@ -80,6 +80,45 @@
     <main class="pt-5 mx-lg-5">
         <div class="container-fluid mt-5">
 
+                    <div class="middle texTime">
+                    <h1 class="h1Time">עוד</h1>
+                    <p id="demo" style="font-size:70px"></p>
+                    <h1 class="h1Time">לטיול הגדול</h1>
+                    </div>
+     
+                <script>
+                // Set the date we're counting down to
+                var countDownDate = new Date("May 1, 2019 15:37:25").getTime();
+                
+                // Update the count down every 1 second
+                var countdownfunction = setInterval(function() {
+                
+                    // Get todays date and time
+                    var now = new Date().getTime();
+                    
+                    // Find the distance between now an the count down date
+                    var distance = countDownDate - now;
+                    
+                    // Time calculations for days, hours, minutes and seconds
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                    // Output the result in an element with id="demo"
+                    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+                    
+                    // If the count down is over, write some text 
+                    if (distance < 0) {
+                        clearInterval(countdownfunction);
+                        document.getElementById("demo").innerHTML = "EXPIRED";
+                    }
+                }, 1000);
+                </script>
+
+                <br>
+
             <!--Grid row-->
             <div class="row wow fadeIn new1">
 
@@ -587,6 +626,7 @@
                         <!--Third column-->
                             <div class="text-center alertBtn">
                                 <br>
+                                <button type="button" class="btn btn-danger" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
                                 <button type="button" class="btn btn-danger btn-sm" data-toggle="modal">חיסונים</button>
                                 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
                                 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#centralModalLGInfoDemo">בתי חבד</button>
