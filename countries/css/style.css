@@ -20,17 +20,19 @@
     color: red;
   }
 
-  .mexico{
-    background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/Mexico.jpg'); 
-    background-size: cover;
-  }
-
   .img-fluid{
     max-height: 200px;
     width: 100%;
   }
 
-/* Brazil */
+  .para{
+    /* direction: rtl; */
+    text-align: right;
+  }
+  .mexico{
+    background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/Mexico.jpg'); 
+    background-size: cover;
+  }
 
 .brazil{
   background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/Brazil.png'); 
