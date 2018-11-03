@@ -14,7 +14,7 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.min.css" rel="stylesheet">
-    <link href="css/newStyle.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!-- <link href="css/style.css" rel="stylesheet"> -->
 </head>
 
@@ -26,9 +26,9 @@
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
             <div class="container-fluid">
-                    <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+                    <div class="navbar-brand">
                         <strong>A.S.L</strong>
-                      </a>
+                    </div>
             
                       <!-- Collapse -->
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -64,7 +64,7 @@
         <!-- Sidebar -->
         <div class="sidebar-fixed position-fixed">
 
-                <h1 class="h1style">South America</h1>
+                <h1 class="title">South America</h1>
 
                 <img src="images/IMG_4698.JPG" class="img-fluid" alt="" width="300px" height="300px">
                 <img src="images/IMG_6126.JPG" class="img-fluid" alt="" width="300px" height="300px">
@@ -80,82 +80,22 @@
     <main class="pt-5 mx-lg-5">
         <div class="container-fluid mt-5">
 
-                    <div class="middle texTime">
-                    <h1 class="h1Time">עוד</h1>
-                    <p id="demo" style="font-size:70px"></p>
-                    <h1 class="h1Time">לטיול הגדול</h1>
-                    </div>
-     
-                <script>
-                // Set the date we're counting down to
-                var countDownDate = new Date("May 1, 2019 15:37:25").getTime();
-                
-                // Update the count down every 1 second
-                var countdownfunction = setInterval(function() {
-                
-                    // Get todays date and time
-                    var now = new Date().getTime();
-                    
-                    // Find the distance between now an the count down date
-                    var distance = countDownDate - now;
-                    
-                    // Time calculations for days, hours, minutes and seconds
-                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                    
-                    // Output the result in an element with id="demo"
-                    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                    + minutes + "m " + seconds + "s ";
-                    
-                    // If the count down is over, write some text 
-                    if (distance < 0) {
-                        clearInterval(countdownfunction);
-                        document.getElementById("demo").innerHTML = "EXPIRED";
-                    }
-                }, 1000);
-                </script>
+            <div class="middle texTime">
+            <h1 class="h1Timer">עוד</h1>
+            <p id="demo" style="font-size:70px"></p>
+            <h1 class="h1Timer">לטיול הגדול</h1>
+            </div>
 
-                <br>
+            <br>
 
             <!--Grid row-->
-            <div class="row wow fadeIn new1">
+            <div class="row wow fadeIn chart">
 
-                 <!--Grid column-->
+                <!--Grid column-->
                  <div class="col-md-9 mb-4">
-
-                    <script type="text/javascript">
-                        window.onload = function () {
-                        
-                        var chart = new CanvasJS.Chart("chartContainer", {
-                            theme: "light1", // "light2", "dark1", "dark2"
-                            animationEnabled: false, // change to true		
-                            title:{
-                                text: 'סה"כ 30000₪'
-                            },
-                            data: [
-                            {
-                                // Change type to "bar", "area", "spline", "pie",etc.
-                                type: "column",
-                                dataPoints: [
-                                    { label: "מקסיקו",  y: 5000  },
-                                    { label: "ברזיל", y: 5000 },
-                                    { label: "פרו", y: 5000  },
-                                    { label: "קולומביה",  y: 5000  },
-                                    { label: "ארגנטינה",  y: 5000  }
-                                ]
-                            }
-                            ]
-                        });
-                        chart.render();
-                        }
-                        </script>
-
-                        <div id="chartContainer" style="height: 370px; width: 100%;"></div>
-                        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                        <div id="chartContainer" style="height: 370px; width: 100%;"><h1>30,000</h1></div>
                     </div>
-                    <!--Grid column-->
+                <!--Grid column-->
 
             </div>
             <!--Grid row-->
@@ -174,19 +114,19 @@
                     <div class="card">
 
                         <!--Card content-->
-                        <div id="listCountry" class="card-body">
+                        <div class="card-body">
 
                             <!-- Table  -->
                             <table class="table table-hover">
                                 <!-- Table head -->
-                                <thead class="green lighten-4">
+                                <thead class="blue lighten-4">
                                     <tr>
                                         <td>Mexico,</td>
                                         <td>Mexico City</td>
                                         <td>20 Days</td>
                                         <td><a href="countries/Mexico.html" target="_blank">לחץ כאן</a></td>
                                     </tr>
-                                </thead>
+                                </thead>  
                                 <!-- Table head -->
 
                                 <!-- Table body -->
@@ -234,7 +174,7 @@
                             <!-- Table  -->
                             <table class="table table-hover">
                                 <!-- Table head -->
-                                <thead class="yellow lighten-4">
+                                <thead class="red lighten-4">
                                     <tr>
                                         <th>Brazil,</th>
                                         <th>Rio de jenero</th>
@@ -290,7 +230,7 @@
                                 <!-- Table  -->
                                 <table class="table table-hover">
                                     <!-- Table head -->
-                                    <thead class="red lighten-4">
+                                    <thead class="yellow lighten-4">
                                         <tr>
                                             <th>Pero,</th>
                                             <th>Pero</th>
@@ -345,7 +285,7 @@
                                 <!-- Table  -->
                                 <table class="table table-hover">
                                     <!-- Table head -->
-                                    <thead class="orange lighten-4">
+                                    <thead class="green lighten-4">
                                         <tr>
                                             <th>Colomobia,</th>
                                             <th>colomobia</th>
@@ -401,7 +341,7 @@
                             <!-- Table  -->
                             <table class="table table-hover">
                                 <!-- Table head -->
-                                <thead class="orange lighten-4">
+                                <thead class="purple lighten-4">
                                     <tr>
                                         <th>Argentina,</th>
                                         <th>Buenos Aires</th>
@@ -461,14 +401,14 @@
               <div class="card">
     
                 <!-- Card header -->
-                <div id="list1" class="card-header">
+                <div class="card-header">
                   <h4>
                     <strong>ציוד</strong>
                   </h4>
                 </div>
                 <!--Card content-->
                 <div class="card-body">
-                  <ol id='listOne' class="list-unstyled mb-4">
+                  <ol id='newList' class="list-unstyled mb-4">
                   </ol>
                   <!-- <input type="text" id="nameInput" placeholder="מה עוד חסר?">
                 
@@ -624,16 +564,14 @@
                 <!--Section: Modals-->
 
                         <!--Third column-->
-                            <div class="text-center alertBtn">
+                            <div class="text-center">
                                 <br>
-                                <button type="button" class="btn btn-danger" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
-                                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal">חיסונים</button>
-                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
-                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#centralModalLGInfoDemo">בתי חבד</button>
-                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#centralModalLGInfoDemo">אטרקציות</button>
-                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#centralModalLGInfoDemo">אטרקציות</button>
-                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#centralModalLGInfoDemo">אטרקציות</button>
-                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#centralModalLGInfoDemo">אטרקציות</button>
+                                <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
+                                <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
+                                <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
+                                <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
+                                <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
+                                <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
                                 <br>
                         </div>
                         <!--Third column-->
@@ -665,7 +603,9 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
 
-    <script type="text/javascript" src="js/sciriptFunc.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <!-- Initializations -->
     <script type="text/javascript">
         // Animations initialization

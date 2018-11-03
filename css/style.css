@@ -27,3 +27,87 @@
   .sidebar-fixed {
     display: none; } }
 
+
+  body{
+      background: url('https://raw.githubusercontent.com/lior4007/South-America/master/images/background.jpg') no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+   }
+   
+   .navbar-nav{
+       direction: rtl;
+       text-align: right;
+   }
+   
+   .nav-link{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+   .title{
+    text-shadow: -1px 5px 30px rgba(75, 255, 150, 1);
+    text-align: center;
+  }
+
+  .img-fluid{
+    margin-bottom: 20px;
+    border-radius: 3%;
+  }
+   
+   .h1Timer{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+       font-size: 50px;
+   }
+
+   .texTime{
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+    color: white;
+    font: 300;
+  }
+   
+  .chart{
+      justify-content: center;
+  }
+
+  .headers{
+  padding: 5px 50px;
+  background-image: url('https://raw.githubusercontent.com/lior4007/South-America/master/images/headers.jpg'); 
+  border-radius: 5px;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } 
+
+  .card-body ,.card-header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .alertBtn{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 8%;
+  }
+   
+       /* #nameInput{
+       margin-bottom: 20px;
+       text-align: center; 
+   } */
+   
+    
+   
+     
+
