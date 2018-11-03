@@ -14,14 +14,24 @@
 
   .navbar-nav{
     direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
   }
 
   .mb-4{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color: red;
+    font-size: 60px;
   }
 
   .buttonCity{
     text-align: center;
+  }
+
+  .btn-danger{
+    font-size: 20px;
+    border-radius: 8%;
+    padding: 10px;
   }
 
   .img-fluid{
@@ -33,28 +43,40 @@
     text-align: right;
   }
   .mexico{
-    background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/Mexico.jpg'); 
+    /* width: 100%;
+    height: 100%; */
+    background-image: url("https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/Mexico.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
   }
 
 .brazil{
   background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/Brazil.png'); 
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .pero{
     background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/Pero.jpg'); 
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
   
 }
 
 .colombia{
   background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/Colombia.png'); 
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .argentina{
   background: url('https://raw.githubusercontent.com/lior4007/South-America/master/countries/images/Argentina.jpg'); 
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
   
