@@ -95,12 +95,25 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
+  .headMsg, #nameInput{
+    text-align: center;
+  }
+
+  #nameInput{
+    margin-bottom: 20px;
+  }
+
   .alertBtn{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
     border-radius: 8%;
   }
+
+  .headMsg{
+    direction: rtl;
+  }
+  
    
        /* #nameInput{
        margin-bottom: 20px;

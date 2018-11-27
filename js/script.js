@@ -63,23 +63,23 @@
 
 
     //Create list
-    // let list1 = document.querySelector('#list1');
-
-    // list1.addEventListener('click', addList);
+    let list1 = document.querySelector('#list1');
+    list1.addEventListener('click', addList);
     
-    function addList(_name){
-        this.name = _name;
+    function addList(){
+        var newInput = document.querySelector('#nameInput').value;
+        // this.name = _name;
     
         let newLi = document.createElement("li");
         newLi.className = "list-unstyled mb-4";
-        newLi.innerHTML += this.name;
+        newLi.innerHTML += newInput;
         newLi.innerHTML += `<i class="fa fa-check green-text ml-1"></i><hr>`;
     
         newList.appendChild(newLi);
     }
 
-    addList('אוהל');
-    addList('נעליים');
+    // addList('אוהל');
+    // addList('נעליים');
 
 
 

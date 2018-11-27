@@ -13,9 +13,7 @@
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="css/style.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!-- <link href="css/style.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -87,18 +85,6 @@
             </div>
 
             <br>
-
-            <!--Grid row-->
-            <div class="row wow fadeIn chart">
-
-                <!--Grid column-->
-                 <div class="col-md-9 mb-4">
-                        <div id="chartContainer" style="height: 370px; width: 100%;"><h1>30,000</h1></div>
-                    </div>
-                <!--Grid column-->
-
-            </div>
-            <!--Grid row-->
 
             <div class="jumbotron text-center headers" id="header1">
                 <h1 class="font-weight-bold">יעדים</h1>
@@ -387,6 +373,18 @@
             </div>
             <!--Grid row-->
 
+             <!--Grid row-->
+             <div class="row wow fadeIn chart">
+
+                <!--Grid column-->
+                 <div class="col-md-9 mb-4">
+                        <div id="chartContainer" style="height: 370px; width: 100%;"><h1>30,000</h1></div>
+                    </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
             <div class="jumbotron text-center headers" id="header2">
                 <h1 class="font-weight-bold">רשימת ציוד</h1>
               </div>
@@ -410,9 +408,9 @@
                 <div class="card-body">
                   <ol id='newList' class="list-unstyled mb-4">
                   </ol>
-                  <!-- <input type="text" id="nameInput" placeholder="מה עוד חסר?">
+                  <input type="text" id="nameInput" placeholder="מה עוד חסר?">
                 
-                  <button type="button" id="list1" class="btn btn-lg btn-block btn-outline-primary waves-effect">הוספה</button> -->
+                  <button type="button" id="list1" class="btn btn-lg btn-block btn-outline-primary waves-effect">הוספה</button>
     
                 </div>
     
@@ -519,14 +517,14 @@
                 <!--Section: Modals-->
                 <section>
 
-                    <!-- Central Modal Large Info-->
-                    <div class="modal fade" id="centralModalLGInfoDemo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <!-- Weather-->
+                    <div class="modal fade" id="Weather" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg modal-notify modal-info" role="document">
                             <!--Content-->
                             <div class="modal-content">
                                 <!--Header-->
                                 <div class="modal-header">
-                                    <p class="heading lead">Modal Info</p>
+                                    <p class="heading lead">מזג אוויר</p>
 
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true" class="white-text">&times;</span>
@@ -536,29 +534,44 @@
                                 <!--Body-->
                                 <div class="modal-body">
                                     <div class="text-center">
-                                        <i class="fa fa-check fa-4x mb-3 animated rotateIn"></i>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla
                                             aperiam blanditiis ad consequatur in dolores culpa, dignissimos, eius
                                             non possimus fugiat. Esse ratione fuga, enim, ab officiis totam.
                                         </p>
                                     </div>
-                                    <img src="https://mdbootstrap.com/wp-content/uploads/2016/11/admin-dashboard-bootstrap.jpg" alt="Material Design for Bootstrap - dashboard"
-                                        class="img-fluid">
-
-                                </div>
-
-                                <!--Footer-->
-                                <div class="modal-footer">
-                                    <a role="button" class="btn btn-info">Get it now
-                                        <i class="fa fa-diamond ml-1"></i>
-                                    </a>
-                                    <a role="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">No, thanks</a>
                                 </div>
                             </div>
                             <!--/.Content-->
                         </div>
                     </div>
-                    <!-- Central Modal Large Info-->
+                    <!-- Weather-->
+                    
+                    <!-- Weather-->
+                    <div class="modal fade" id="Chabad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-notify modal-info" role="document">
+                            <!--Content-->
+                            <div class="modal-content">
+                                <!--Header-->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true" class="white-text">&times;</span>
+                                    </button>
+                                </div>
+
+                                <!--Body-->
+                                <div class="modal-body">
+                                    <div class="text-center">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla
+                                            aperiam blanditiis ad consequatur in dolores culpa, dignissimos, eius
+                                            non possimus fugiat. Esse ratione fuga, enim, ab officiis totam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.Content-->
+                        </div>
+                    </div>
+                    <!-- Weather-->
 
                 </section>
                 <!--Section: Modals-->
@@ -566,8 +579,8 @@
                         <!--Third column-->
                             <div class="text-center">
                                 <br>
-                                <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
-                                <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">בתי חבד</button>
+                                <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#Weather">מזג אוויר</button>
+                                <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#Chabad">בתי חבד</button>
                                 <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">חיסונים</button>
                                 <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
                                 <button type="button" class="btn btn-danger alertBtn" data-toggle="modal" data-target="#centralModalLGInfoDemo">מזג אוויר</button>
